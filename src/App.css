@@ -1,7 +1,73 @@
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
+.attribution > p {
+  color: black;
+}
+
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 700;
+  font-size: 2rem;
+  color: hsl(0, 0%, 95%);
+}
+
+#card {
+  overflow: hidden;
+  border-radius: 1rem;
+  margin: 5rem 1.5rem;
+}
+
+#sedans {
+  background-color: var(--orange);
+}
+
+#suvs {
+  background-color: var(--dark-cyan);
+}
+
+#luxury {
+  background-color: var(--very-dark-cyan);
+}
+
+.car-type {
+  padding: 3rem;
+}
+
+p {
+  color: var(--transparent-white);
+  line-height: 150%;
+}
+
+button {
+  background-color: var(--very-light-gray);
+  border: none;
+  border-radius: 25% / 50%;
+  padding: 1rem 1.5rem;
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.dark-cyan {
+  color: var(--dark-cyan);
+}
+
+.very-dark-cyan {
+  color: var(--very-dark-cyan);
 }

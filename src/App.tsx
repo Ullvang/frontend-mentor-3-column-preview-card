@@ -8,33 +8,33 @@ function App() {
   return (
     <>
       <main className="App">
-        <section className="card">
+        <section id="card">
           <div className="car-type" id="sedans">
             <img src={SedansIcon} alt="Sedans Icon" />
-            <h2>Sedans</h2>
+            <h2>SEDANS</h2>
             <p>
               Choose a sedan for its affordability and excellent fuel economy.
               Ideal for cruising in the city or on your next road trip.
             </p>
-            <button>Learn More</button>
+            <button className="orange">Learn More</button>
           </div>
           <div className="car-type" id="suvs">
             <img src={SUVsIcon} alt="SUVs Icon" />
-            <h2>SUVs</h2>
+            <h2>SUVS</h2>
             <p>
               Take an SUV for its spacious interior, power, and versatility.
               Perfect for your next family vacation and off-road adventures.
             </p>
-            <button>Learn More</button>
+            <button className="dark-cyan">Learn More</button>
           </div>
           <div className="car-type" id="luxury">
             <img src={LuxuryIcon} alt="Luxury Car Icon" />
-            <h2>Luxury</h2>
+            <h2>LUXURY</h2>
             <p>
               Cruise in the best car brands without the bloated prices. Enjoy
               the enhanced comfort of a luxury rental and arrive in style.
             </p>
-            <button>Learn More</button>
+            <button className="very-dark-cyan">Learn More</button>
           </div>
         </section>
       </main>
