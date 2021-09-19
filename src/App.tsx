@@ -11,7 +11,7 @@ function App() {
       <main id="App">
         <section id="card">
           <div className="car-type" id="sedans">
-            <img src={SedansIcon} alt="Sedans Icon" />
+            <img src={SedansIcon} width="64" height="40" alt="Sedans Icon" />
             <h1>SEDANS</h1>
             <p>
               Choose a sedan for its affordability and excellent fuel economy.
@@ -20,7 +20,7 @@ function App() {
             <button className="orange">Learn More</button>
           </div>
           <div className="car-type" id="suvs">
-            <img src={SUVsIcon} alt="SUVs Icon" />
+            <img src={SUVsIcon} width="64" height="40" alt="SUVs Icon" />
             <h1>SUVS</h1>
             <p>
               Take an SUV for its spacious interior, power, and versatility.
@@ -29,7 +29,12 @@ function App() {
             <button className="dark-cyan">Learn More</button>
           </div>
           <div className="car-type" id="luxury">
-            <img src={LuxuryIcon} alt="Luxury Car Icon" />
+            <img
+              src={LuxuryIcon}
+              width="64"
+              height="40"
+              alt="Luxury Car Icon"
+            />
             <h1>LUXURY</h1>
             <p>
               Cruise in the best car brands without the bloated prices. Enjoy
