@@ -1,28 +1,64 @@
 import React from "react";
+import SedansIcon from "./images/icon-sedans.svg";
+import SUVsIcon from "./images/icon-suvs.svg";
+import LuxuryIcon from "./images/icon-luxury.svg";
 import "./App.css";
 
 function App() {
-  console.log("hmmm --- 1");
   return (
-    <div className="App">
-      Sedans Choose a sedan for its affordability and excellent fuel economy.
-      Ideal for cruising in the city or on your next road trip. SUVs Take an SUV
-      for its spacious interior, power, and versatility. Perfect for your next
-      family vacation and off-road adventures. Luxury Cruise in the best car
-      brands without the bloated prices. Enjoy the enhanced comfort of a luxury
-      rental and arrive in style.
-      <div className="attribution">
-        Challenge by{" "}
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Frontend Mentor
-        </a>
-        . Coded by <a href="/">Your Name Here</a>.
-      </div>
-    </div>
+    <>
+      <main className="App">
+        <section className="card">
+          <div className="car-type" id="sedans">
+            <img src={SedansIcon} alt="Sedans Icon" />
+            <h2>Sedans</h2>
+            <p>
+              Choose a sedan for its affordability and excellent fuel economy.
+              Ideal for cruising in the city or on your next road trip.
+            </p>
+            <button>Learn More</button>
+          </div>
+          <div className="car-type" id="suvs">
+            <img src={SUVsIcon} alt="SUVs Icon" />
+            <h2>SUVs</h2>
+            <p>
+              Take an SUV for its spacious interior, power, and versatility.
+              Perfect for your next family vacation and off-road adventures.
+            </p>
+            <button>Learn More</button>
+          </div>
+          <div className="car-type" id="luxury">
+            <img src={LuxuryIcon} alt="Luxury Car Icon" />
+            <h2>Luxury</h2>
+            <p>
+              Cruise in the best car brands without the bloated prices. Enjoy
+              the enhanced comfort of a luxury rental and arrive in style.
+            </p>
+            <button>Learn More</button>
+          </div>
+        </section>
+      </main>
+      <footer className="attribution">
+        <p>
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Frontend Mentor
+          </a>
+          .
+        </p>
+        <p>
+          Coded by{" "}
+          <a href="https://github.com/Ullvang" rel="noreferrer" target="_blank">
+            Jon Erik Ullvang
+          </a>
+          .
+        </p>
+      </footer>
+    </>
   );
 }
 
