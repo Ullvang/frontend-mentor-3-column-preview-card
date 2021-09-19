@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 
 function App() {
+  console.log("test wow");
+
   return (
     <div className="App">
       Sedans Choose a sedan for its affordability and excellent fuel economy.
