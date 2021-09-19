@@ -37,6 +37,7 @@ h1 {
 }
 
 .car-type {
+  /* min-height: 406.4px; */
   padding: 3rem;
 }
 
@@ -51,6 +52,7 @@ button {
   border-radius: 20% / 50%;
   padding: 1rem 1.5rem;
   margin-top: 0.8rem;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .orange {
